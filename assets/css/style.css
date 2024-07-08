@@ -1,0 +1,1124 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:400|Oleo+Script:400|Signika:400");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background: #3b7674;
+}
+
+.landing-page{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+}
+
+.image-1{
+    width: 1440px;
+    height: 1024px;
+}
+ 
+.logo{
+    position: absolute;
+    width: 837.88px;
+    height: 239px;
+    left: 40px;
+    top: 161px;
+}
+
+.text-motto{
+    position: absolute;
+    width: 646px;
+    height: 107px;
+    left: 130px;
+    top: 438px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.bite{
+    color: #4ECBC4;
+}
+
+.new_tab{
+    position: absolute;
+    width: 322px;
+    height: 89px;
+    left: 286px;
+    top: 652px;
+    background-color: #AC8887;
+    border-radius: 70px;
+    cursor: pointer;
+
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    color: #4ECBC4;
+    border: none;
+}
+
+.home-page{
+    width: 100%;
+    height: 1947px;
+    background: #3b7674;
+    
+}
+
+.navbar{
+    position: absolute !important;
+    width: 100% !important;
+    height: 150px !important;
+    left: -0.86px !important;
+    top: 0.33px !important;
+    background: rgba(41, 47, 54) !important;
+    transform: matrix(1, 0, 0, 1, 0, 0) !important;
+    z-index: 1 !important; 
+    position: fixed !important;
+}
+
+.navlink{
+    position: absolute !important;
+    left: 23.39% !important;
+    right: 38.44% !important;
+    top: 35%!important;
+    bottom: 93.83% !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 0px !important;
+    gap: 30.07px !important;
+    width: 619px !important;
+    height: 36px !important;
+}
+
+.navlink a{
+    text-decoration: none !important;
+    color: white !important;
+    font-family: 'Inter' !important;
+    font-weight: 400 !important;
+    font-size: 25px !important;
+}
+
+.login{
+    position: absolute !important;
+    left: 85% !important; 
+    top: 35% !important;   
+    font-family: 'Inter' !important;
+    font-weight: 400 !important;
+    font-size: 25px !important;
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.signup-btn{
+    position: absolute !important;
+    width: 132px !important;
+    height: 53px !important;
+    left: 90% !important;
+    top: 28% !important;
+    font-family: 'Inter' !important;
+    font-weight: 400 !important;
+    font-size: 25px !important;
+    background-color: pink !important;
+    border-radius: 10px !important;
+    cursor: pointer !important;
+}
+
+
+.dreambite{
+    position: absolute !important;
+    width: 290.42px !important;
+    height: 86px !important;
+    left: 70px !important;
+    top: 28px !important;
+    text-decoration: none !important;
+    font-family: 'Oleo Script' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 75px !important;
+    line-height: 92px !important;
+    text-transform: capitalize !important;
+    cursor: pointer !important;
+}
+
+.dream{
+    color: #D4AFB9;
+}
+
+.bite{
+    color: #4ECBC4;
+}
+
+.dentist-display{
+    position: relative !important;
+    top: 7% !important;
+}
+
+.rectangle-1{
+    position: absolute !important;
+    width: 70% !important;
+    height: 654px !important;
+}
+
+.dentist{
+    position: absolute !important;
+    width: 130% !important;
+    height: 100% !important;
+    left: 40px !important;
+    top: 8% !important;
+    mix-blend-mode: normal !important;
+    backdrop-filter: blur(2px) !important;
+    border-radius: 10px !important;
+}
+
+.text-motto_1{
+    position: absolute !important;
+    width: 50% !important;
+    height: 50% !important;
+    left: 150px !important;
+    top: 110px !important;
+
+    font-family: 'Signika' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 70px !important;
+    line-height: 90px !important;
+    display: flex !important;
+    align-items: center !important;
+    text-transform: capitalize !important;
+
+    color: #292F36 !important;
+}
+
+.new_appoint{
+    position: absolute !important;
+    width: 30% !important;
+    height: 20% !important;
+    left: 10% !important;
+    top: 60% !important;
+    background-color: #4ECBC4 !important;
+    border-radius: 50.6131px !important;
+    border: none !important;
+    font-family: 'Signika' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 40px !important;
+    line-height: 36px !important;
+    text-transform: capitalize;
+    color: white;
+    cursor: pointer;
+}
+
+.menu-container{
+    position: absolute;
+    top: 40%;
+}
+
+.services_container{
+    position: absolute;
+    width: 25%;
+    height: 558px;
+    left: 53px;
+    top: 100%;
+
+    background: linear-gradient(360deg, rgba(254, 220, 151) 4.13%, rgba(254, 220, 151, 0) 103.78%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+.services_text{
+    position: absolute;
+    width: 153px;
+    height: 53px;
+    left: 32%;
+    top: 21px;
+    text-align: center;
+
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    color: #4ECBC4;
+}
+
+.services_link, .meet_link{
+    position: absolute;
+    width: 300px;
+    height: 58px;
+    left: 237px;
+    top: 95%;
+    background-color: #D4AFB9;
+    border-radius: 20px;
+
+    color: black;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+}
+
+
+
+.services_details, .contact_details, .meet_details{
+    position: absolute;
+    width: 323px;
+    height: 235px;
+    left: 15%;
+    top: 50%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.contact_container{
+    position: absolute;
+    width: 25%;
+    height: 558px;
+    left: 36%;
+    top: 100%;
+
+    background: linear-gradient(360deg, rgba(254, 220, 151, 0.73) 4.13%, rgba(254, 220, 151, 0) 103.78%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+.contact_text{
+    position: absolute;
+    width: 240px;
+    height: 53px;
+    left: 22.5%;
+    top: 21px;
+
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    color: #4ECBC4;
+}
+
+.contact_link{
+    position: absolute;
+    width: 300px;
+    height: 58px;
+    left: 237px;
+    top: 95%;
+    background-color: #D4AFB9;
+    border-radius: 20px;
+
+    color: black;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.5px;
+    border: none;
+}
+
+
+.meet_container{
+    position: absolute;
+    width: 25%;
+    height: 558px;
+    left: 69%;
+    top: 100%;
+    background: linear-gradient(360deg, rgba(254, 220, 151, 0.73) 4.13%, rgba(254, 220, 151, 0) 103.78%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+.meet_text{
+    position: absolute;
+    width: 322px;
+    height: 53px;
+    left: 14%;
+    top: 21px;
+
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    color: #4ECBC4;
+}
+
+
+
+
+.ellipse{
+    width: auto;
+    height: auto;
+    position: absolute;
+    width: 202px;
+    height: 198px;
+    left: 27%;
+    top: 15%;
+
+}
+
+.tools-pic, .message-pic, .users-pic{
+    position: absolute;
+    width: 137px;
+    height: 140px;
+    left: 34%;
+    top: 20%;
+}
+
+.text-motto_3{
+    position: absolute;
+    width: 818px;
+    height: 40px;
+    left: 28%;
+    top: 100%;
+
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+
+    color: #ddb2b1;
+}
+
+.smile_2{
+    color: #4ECBC4;
+}
+
+.web-info-bar{
+    position: absolute;
+    width: 100%;
+    height: 224px;
+    top: 110%;
+
+    background: linear-gradient(360deg, rgba(254, 220, 151, 0.53) 4.13%, rgba(254, 220, 151, 0) 103.78%);
+}
+
+.address-info{
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    width: 15%;
+    height: 300;
+}
+
+.location-marker{
+    position: absolute;
+    width: 35%;
+    height: auto;
+    top: 50%;
+}
+
+.address-info-text{
+    color: white;
+    position: absolute;
+    left: 40%;
+    margin-top: 10%;
+    width: 80%;
+    height: auto;
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 30px;
+    align-items: center;
+}
+
+.address-info-text span{
+    color: #292F36;
+}
+
+.alarm-info{
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    width: 15%;
+    height: 300;
+}
+
+.clock-icon{
+    position: absolute;
+    width: 35%;
+    height: auto;
+    top: 50%;
+}
+
+.address-info-text{
+    color: white;
+    position: absolute;
+    left: 40%;
+    margin-top: 10%;
+    width: 80%;
+    height: auto;
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 30px;
+    align-items: center;
+}
+
+.address-info-text span{
+    color: #292F36;
+}
+
+.alarm-info{
+    position: absolute;
+    left: 27%;
+    top: 20%;
+    width: 15%;
+    height: 300;
+}
+
+.clock-icon{
+    position: absolute;
+    width: 35%;
+    height: auto;
+    top: 50%;
+}
+
+.address-info-text{
+    color: white;
+    position: absolute;
+    left: 40%;
+    margin-top: 10%;
+    width: 80%;
+    height: auto;
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 30px;
+    align-items: center;
+}
+
+.address-info-text span{
+    color: #292F36;
+}
+
+.phone-info{
+    position: absolute;
+    left: 52%;
+    top: 20%;
+    width: 15%;
+    height: 300;
+}
+
+.phone-icon{
+    position: absolute;
+    width: 35%;
+    height: auto;
+    top: 50%;
+}
+
+.address-info-text{
+    color: white;
+    position: absolute;
+    left: 40%;
+    margin-top: 10%;
+    width: 80%;
+    height: auto;
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 30px;
+    align-items: center;
+}
+
+.address-info-text span{
+    color: #292F36;
+}
+
+.calendar-info{
+    position: absolute;
+    left: 76%;
+    top: 20%;
+    width: 15%;
+    height: 300;
+}
+
+.calendar-icon{
+    position: absolute;
+    width: 35%;
+    height: auto;
+    top: 50%;
+}
+
+.address-info-text{
+    color: white;
+    position: absolute;
+    left: 40%;
+    margin-top: 10%;
+    width: 80%;
+    height: auto;
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 30px;
+    align-items: center;
+}
+
+.address-info-text span{
+    color: #292F36;
+}
+
+.services-page-container{
+    width: 100%;
+    height: 2946px;
+
+    background: #3b7674;
+}
+
+
+
+.our-services{
+    color: #4ECBC4;
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 83px;
+    line-height: 30px;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.our-services span{
+    color: #D4AFB9;
+}
+
+.root-canal{
+    position: relative;
+    left: 5%;
+    top: 15%;
+    width: 90%;
+    height: 306px;
+    background: linear-gradient(90.16deg, rgba(172, 136, 135, 0.56) 49.93%, rgba(172, 136, 135, 0.289) 97.72%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.root-canal-img{
+    position: absolute;
+    height: 80%;
+    top: 10%;
+    left: 2%;
+    width: 26.5%;
+}
+
+.root-canal-text{
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 50px;
+    line-height: 30px;
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    color: #4ECBC4;
+}
+
+.root-canal-details{
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 34px;
+    line-height: 50px;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    width: 40%;
+    color: white;
+}
+
+.schedule-now-button{
+    position: absolute;
+    top: 40%;
+    left: 76%;
+    width: 20%;
+    height: 20%;
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 30px;
+    background-color: #D4AFB9;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.teeth-whitening{
+    position: relative;
+    left: 5%;
+    top: 18%;
+    width: 90%;
+    height: 306px;
+    background: linear-gradient(90.16deg, rgba(172, 136, 135, 0.56) 49.93%, rgba(172, 136, 135, 0.289) 97.72%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.teeth-whitening-img{
+    position: absolute;
+    height: 80%;
+    top: 10%;
+    left: 2%;
+    width: 26.5%;
+}
+
+.dentures{
+    position: relative;
+    left: 5%;
+    top: 21%;
+    width: 90%;
+    height: 306px;
+    background: linear-gradient(90.16deg, rgba(172, 136, 135, 0.56) 49.93%, rgba(172, 136, 135, 0.289) 97.72%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.dentures-img{
+    position: absolute;
+    height: 80%;
+    top: 10%;
+    left: 2%;
+    width: 26.5%;
+}
+
+.orthodontics{
+    position: relative;
+    left: 5%;
+    top: 24%;
+    width: 90%;
+    height: 306px;
+    background: linear-gradient(90.16deg, rgba(172, 136, 135, 0.56) 49.93%, rgba(172, 136, 135, 0.289) 97.72%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.orthodontics-img{
+    position: absolute;
+    height: 80%;
+    top: 10%;
+    left: 2%;
+    width: 26.5%;
+}
+
+.bridge-works{
+    position: relative;
+    left: 5%;
+    top: 27%;
+    width: 90%;
+    height: 306px;
+    background: linear-gradient(90.16deg, rgba(172, 136, 135, 0.56) 49.93%, rgba(172, 136, 135, 0.289) 97.72%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.bridge-works-img{
+    position: absolute;
+    height: 80%;
+    top: 10%;
+    left: 2%;
+    width: 26.5%;
+}
+
+.cosmetic-fillings{
+    position: relative;
+    left: 5%;
+    top: 30%;
+    width: 90%;
+    height: 306px;
+    background: linear-gradient(90.16deg, rgba(172, 136, 135, 0.56) 49.93%, rgba(172, 136, 135, 0.289) 97.72%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cosmetic-fillings-img{
+    position: absolute;
+    height: 80%;
+    top: 10%;
+    left: 2%;
+    width: 26.5%;
+}
+
+.contact-us-container{
+    width: 100%;
+    height: 100%;
+    background: #3b7674;
+}
+
+.contact-us-text{
+    color: #4ECBC4;
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 83px;
+    line-height: 30px;
+    text-align: center;
+    position: relative;
+    top: 25%;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contact-us-text span{
+    color: #D4AFB9;
+}
+
+.visit-us-container{
+    position: absolute;
+    width: 23%;
+    height: 300px;
+    left: 7%;
+    top: 40%;
+}
+
+.visit-us-text{
+    color: #29efe5;
+    background-color: #D4AFB9;
+    width: 50%;
+    height: 15%;
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.visit-us-box{
+    position: absolute;
+    width: 100%;
+    height: 255px;
+    top: 15%;
+    
+
+    background: linear-gradient(90.16deg, rgba(172, 136, 135, 0.87) 49.93%, rgba(172, 136, 135, 0.289) 97.72%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.visit-us-details{
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 7%;
+}
+
+.visit-us-details img{
+    width: 5%;
+}
+
+.location-map{
+    position: absolute;
+    top: 23%;
+    left: 7.3%;
+}
+
+.pitch-us-container{
+    position: absolute;
+    width: 23%;
+    height: 300px;
+    left: 38%;
+    top: 40%;
+}
+
+.pitch-us-text{
+    color: #29efe5;
+    background-color: #D4AFB9;
+    width: 50%;
+    height: 15%;
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pitch-us-box{
+    position: absolute;
+    width: 100%;
+    height: 255px;
+    top: 15%;
+    
+
+    background: linear-gradient(90.16deg, rgba(172, 136, 135, 0.87) 49.93%, rgba(172, 136, 135, 0.289) 97.72%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pitch-us-details{
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 34%;
+}
+
+.whatsapp{
+    width: 8%;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+
+.send-us-container{
+    position: absolute;
+    width: 23%;
+    height: 300px;
+    left: 69%;
+    top: 40%;
+}
+
+.send-us-text{
+    color: #29efe5;
+    background-color: #D4AFB9;
+    width: 70%;
+    height: 15%;
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    text-align: center;
+    position: absolute;
+    left: 15%;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.send-us-box{
+    position: absolute;
+    width: 100%;
+    height: 255px;
+    top: 15%;
+    
+
+    background: linear-gradient(90.16deg, rgba(172, 136, 135, 0.87) 49.93%, rgba(172, 136, 135, 0.289) 97.72%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.gmail-email{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    text-align: center;
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #292F36;
+}
+
+.fb-contact{
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    text-align: left;
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #292F36;
+}
+
+.gmail-icon{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+.facebook-icon{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+}
+
+.schedule-container{
+    width: 100%;
+    height: 100%;
+    background-color: #3b7674;
+}
+
+.schedule-content{
+    width: 100%;
+    height: 80%;
+    background: linear-gradient(360deg, rgba(254, 220, 151, 0.53) 4.13%, rgba(254, 220, 151, 0) 103.78%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 20%;
+}
+
+.schedule-text{
+    color: #4ECBC4;
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    text-align: center;
+}
+
+.schedule-text span{
+    color: #D4AFB9;
+}
+
+.schedule-text-1{
+    color: white;
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+}
+
+.login-container{
+    width: 100%;
+    height: 100%;
+    background: #3b7674;
+    overflow: hidden;
+}
+
+.login-bg{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.patient-client-text{
+    margin-top: 30px;
+
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 49px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.form-container{
+    position: absolute;
+    width: 40%;
+    max-height: 70%;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    background: #3b7674;
+    border-radius: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+.form-group{
+    margin-top: 15px;
+    width: 70%;
+    height: 30%;
+    margin-left: 15%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 49px;
+}
+
+input{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 49px;
+}
+
+
+::placeholder{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 49px;
+}
+
+.submit-login{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 30%; 
+    height: 15%;
+    font-size: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(180deg, #36d5c3 0%, #4d9997 100%);
+    cursor: pointer;
+}
+
+.submit-registration{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 30%; 
+    height: 10%;
+    font-size: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(180deg, #36d5c3 0%, #4d9997 100%);
+    cursor: pointer;
+}
+
+
+    

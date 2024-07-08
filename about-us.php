@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    	<meta charset="UTF-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   		<link rel="stylesheet" href="assets/css/Mission-2.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="FOOTER/Footer.css">
+    	<style>
+    			@import url("https://fonts.googleapis.com/css?family=Inter:400|Oleo+Script:400|Signika:400");
+    	</style>
+       	<title>About Us</title>
+  </head>
+ 
+ <body>
+		<div class="contact-us-container">
+			<div class="navbar" id="nav">
+				<a href="main.php" class="dreambite"><span class="dream">Dream</span><span class="bite">Bite</span></a>
+				<div class="navlink">
+					<a href="main.php" class="home">Home</a>
+					<a href="services.php" class="services">Services</a>
+					<a href="contact-us.php" class="contact">Contact Us</a>
+					<a href="about-us.php" class="about">About Us</a>
+				</div>
+				<?php
+					require_once "dbconnect.php";
+					$sql = "SELECT * FROM users";
+					$result = mysqli_query($conn, $sql);
+					$user = mysqli_fetch_array($result, MYSQLI_ASSOC);
+					session_start();
+					if (isset($_SESSION["user"]) == $user["email"]){
+						echo "<a href='logout.php'>
+						<button class='signup-btn'>Logout</button>
+						</a>";
+						
+					} else{
+						echo "<a href='login.php' class='login'>Login</a>";
+						echo "<a href='signup.php'>
+						<button class='signup-btn'>Sign Up</button>
+						</a>";
+					} 
+				?>
+			</div>
+		
+			
+			<div class="About-Us">
+			<span> ABOUT <span style= 'color:#4ecbc4'> US</span> </span>
+			</div>
+
+			<div class="Mission_Box">
+
+				<div class="OurMission_Title">
+					<span> Our <span style= 'color:#4ecbc4'> Mission</span> </span>
+				</div>
+
+				<div class="Missiontext_container"></div>
+				<i class="Mission_text"> DreamBite is committed to running a top dental Clinic <br>
+					chain that delivers the highest quality dental care at the <br>
+					most affordable cost to our customers.</i>
+
+			</div>
+
+		
+			<div class="Vision_Box">
+				
+				<div class="OurVision_Title">
+					<span> Our <span style= 'color:#4ecbc4'> Vision</span> </span>
+				</div>
+				<div class="Visiontext_container"></div>
+				<i class="Vision_text"> To develop our dental practices as the most reputable and favored <br>
+					name in the industry through the procedures we put in place, the <br>
+					personnel we hire, the customers service we provide, the quality of <br>
+				the goods and services we offer, and overall impression we give to 
+				<br> our clients </i>
+
+			</div>
+
+			<div class="footer_box">
+
+				<div class="Services_rectangle">
+					<div class="Services_title"> <span style='color:#D4AFB9'> Servi<span style='color:#4ECBC4'>ces </span> </span> </div>
+
+					<div class="Services_box">
+						<div class="Services_root"> <div class="Services_root1"> Root Canal Treatment </div> </div>
+						<div class="Services_white"><div class="Services_white1"> Teeth Whitening </div></div>
+						<div class="Services_bridge"><div class="Services_bridge1"> Bridge Works </div></div>
+						<div class="Services_dent"><div class="Services_dent1"> Dentures </div></div>
+						<div class="Services_Ortho"><div class="Services_Ortho1"> Orthodontics </div></div>
+						<div class="Services_cosme"><div class="Services_cosme1"> Cosmetic Fillings </div></div>
+					</div>
+				</div>
+
+				<div class="Clinic_rectangle">
+					<div class="Clinic_title"> <span style='color:#4ECBC4'> Clinic In<span style='color:#FEDC97'>formation </span> </span> </div>
+
+					<div class="Clinic_box">
+						<div class="Clinic_about">  <div class="Clinic_about1"> About Us </div> </div>
+						<div class="Clinic_contact"> <div class="Clinic_contact1"> Contact Us </div> </div>
+						<div class="Clinic_staff"> <div class="Clinic_staff1"> Meet the Staff </div> </div>
+					</div>
+				</div>
+
+				<div class="Reach_rectangle">
+					<div class="Reach_title"> <span style='color:#F3DE8A'> Reach Out to<span style='color:#AC8887'> Our Clinic </span> </span> </div>
+
+					<div class="Reach_box">
+						<div class="Reach_email"> <div class="Reach_email1"> <img class="email" alt="emailicon" src= "FOOTER/mail.png"> info@dreambite.com </div></div>
+						<div class="Reach_phone"><div class="Reach_phone1"> <img class="phone" alt="phoneicon" src= "FOOTER/phone.png"> +1 996 656 2355 </div></div>
+					</div>
+
+				</div>
+
+				<div class="Location_rectangle">
+					<div class="Loc_title"><span style='color:#AC8887'> Loca<span style='color:#D4AFB9'>tion </span> </span> </div>
+
+					<div class="Loc_box">
+						<div class="Loc_add"><div class="Loc_add1"> <img class="mark" alt="markicon" src= "FOOTER/mark.png"> Lee Summit, Kansas City, USA </div> </div>
+					</div>
+
+				</div>
+
+			
+				<div class="tooth_box">
+					<img class="crack" alt="toothicon1" src= "FOOTER/ToothwithCrack.png">
+					<img class="healthy" alt="toothicon2" src= "FOOTER/Tooth.png">
+					<img class="brace" alt="toothicon3" src= "FOOTER/Toothwithbrace.png">
+					<img class="tool" alt="toothicon4" src= "FOOTER/Tools.png">
+					<img class="install" alt="toothicon5" src= "FOOTER/install.png">
+					<img class="open" alt="toothicon6" src= "FOOTER/open.png">
+				</div>
+		
+				<div class="credits"> ©2023 DreamBite - All rights reserved </div>
+
+			</div>
+      
+
+      	</div>
+      
+
+
+
+</body>
+
+</html>

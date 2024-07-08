@@ -1,0 +1,410 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:400|Oleo+Script:400|Signika:400");
+
+*{
+    margin: 0;
+    padding: 0;    
+	box-sizing: border-box;
+}
+
+body, html{
+  	width: auto;
+  	height: 100%;
+}
+
+.footer_box{
+	position: relative;
+	width: 100%;
+	height: 350px;
+	top: 100%;
+	background: #292F36;
+}
+
+.footer_box_services{
+	position: relative;
+	width: 100%;
+	height: 350px;
+	top: 40%;
+	background: #292F36;
+}
+
+.footer_box_main{
+	position: relative;
+	width: 100%;
+	height: 350px;
+	top: 83%;
+	background: #292F36;
+}
+
+/* Services Box */
+
+.Services_rectangle{
+	position: absolute;
+	width: 300px;
+	height: 220px;
+	left: 18px;
+	top: 50px;
+}
+
+.Services_title{
+	position: relative;
+	width: 108px;
+	height: 26px;
+	font-family: 'Signika';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 30px;
+}
+.Services_box{
+	position: absolute;
+	width: 250px;
+	height: 180px;
+	top: 15%;
+}
+.Services_root{
+	position: relative;
+	width: 208.37px;
+	height: 30px;
+	background: linear-gradient(360deg, rgba(212, 175, 185, 0.53) 4.13%, rgba(78, 203, 196, 0.53) 103.78%);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Services_root, .Services_root1{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 28px;
+	text-transform: capitalize;
+	color: #FFFFFF;
+	transform: rotate(-180deg);
+}
+.Services_white{
+	position: relative;
+	width: 208.37px;
+	height: 30px;
+	background: linear-gradient(360deg, rgba(212, 175, 185, 0.53) 4.13%, rgba(78, 203, 196, 0.53) 103.78%);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Services_white, .Services_white1{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 28px;
+	text-transform: capitalize;
+	color: #FFFFFF;
+	transform: rotate(-180deg);
+}
+.Services_bridge{
+	position: relative;
+	width: 208.37px;
+	height: 30px;
+	background: linear-gradient(360deg, rgba(212, 175, 185, 0.53) 4.13%, rgba(78, 203, 196, 0.53) 103.78%);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Services_bridge, .Services_bridge1{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 28px;
+	text-transform: capitalize;
+	color: #FFFFFF;
+	transform: rotate(-180deg);
+}
+.Services_dent{
+	position: relative;
+	width: 208.37px;
+	height: 30px;
+	background: linear-gradient(360deg, rgba(212, 175, 185, 0.53) 4.13%, rgba(78, 203, 196, 0.53) 103.78%);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Services_dent, .Services_dent1{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 28px;
+	text-transform: capitalize;
+	color: #FFFFFF;
+	transform: rotate(-180deg);
+}
+.Services_Ortho{
+	position: relative;
+	width: 208.37px;
+	height: 30px;
+	background: linear-gradient(360deg, rgba(212, 175, 185, 0.53) 4.13%, rgba(78, 203, 196, 0.53) 103.78%);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Services_Ortho, .Services_Ortho1{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 28px;
+	text-transform: capitalize;
+	color: #FFFFFF;
+	transform: rotate(-180deg);
+}
+
+.Services_cosme{
+	position: relative;
+	width: 208.37px;
+	height: 30px;
+	background: linear-gradient(360deg, rgba(212, 175, 185, 0.53) 4.13%, rgba(78, 203, 196, 0.53) 103.78%);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Services_cosme, .Services_cosme1{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 28px;
+	text-transform: capitalize;
+	color: #FFFFFF;
+	transform: rotate(-180deg);
+}
+
+
+
+
+/* Clinic Info Box */
+
+.Clinic_rectangle{
+	position: absolute;
+	width: 209px;
+	height: 106.81px;
+	left: 276px;
+	top: 50px;
+}
+.Clinic_title{
+	position: relative;
+	width: 200px;
+	height: 26px;
+	font-family: 'Signika';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 30px;
+}
+.Clinic_box{
+	position: relative;
+	width: 215px;
+	height: 180px;
+	top: 8%;
+}
+.Clinic_about{
+	position: relative;
+	width: 208.37px;
+	height: 30px;
+	background: linear-gradient(360deg, rgba(78, 203, 196, 0.53) 4.13%, rgba(254, 220, 151, 0.53) 103.27%);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Clinic_about, .Clinic_about1{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 28px;
+	text-transform: capitalize;
+	color: #FFFFFF;
+	transform: rotate(-180deg);
+}
+.Clinic_contact{
+	position: relative;
+	width: 208.37px;
+	height: 30px;
+	background: linear-gradient(360deg, rgba(78, 203, 196, 0.53) 4.13%, rgba(254, 220, 151, 0.53) 103.27%);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Clinic_contact, .Clinic_contact1{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 28px;
+	text-transform: capitalize;
+	color: #FFFFFF;
+	transform: rotate(-180deg);
+}
+.Clinic_staff{
+	position: relative;
+	width: 208.37px;
+	height: 30px;
+	background: linear-gradient(360deg, rgba(78, 203, 196, 0.53) 4.13%, rgba(254, 220, 151, 0.53) 103.27%);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Clinic_staff, .Clinic_staff1{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 28px;
+	text-transform: capitalize;
+	color: #FFFFFF;
+	transform: rotate(-180deg);
+}
+
+
+/* Reach Out Box */
+
+.Reach_rectangle{
+	position: absolute;
+	width: 252px;
+	height: 84.81px;
+	left: 538px;
+	top: 50px;
+}
+.Reach_title{
+	position: relative;
+	width: 250px;
+	height: 26px;
+	font-family: 'Signika';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 30px;
+}
+.Reach_box{
+	position: relative;
+	width: 215px;
+	height: 180px;
+	top: 12%;
+}
+.Reach_email{
+	position: relative;
+	width: 208.37px;
+	height: 30px;
+	background: linear-gradient(360deg, rgba(254, 220, 151, 0.3392) 4.13%, rgba(172, 136, 135, 0.53) 103.78%);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Reach_email, .Reach_email1{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 28px;
+	color: #FFFFFF;
+	display: inline-grid;
+}
+.Reach_email1, .email{
+	display: flex;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.Reach_phone{
+	position: relative;
+	width: 208.37px;
+	height: 30px;
+	background: linear-gradient(360deg, rgba(254, 220, 151, 0.3392) 4.13%, rgba(172, 136, 135, 0.53) 103.78%);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Reach_phone, .Reach_phone1{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 28px;
+	color: #FFFFFF;
+	display: inline-grid;
+}
+.Reach_phone1, .phone{
+	display: flex;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+
+
+
+/* Location Box */
+
+.Location_rectangle{
+	position: absolute;
+	width: 252px;
+	height: 84.81px;
+	left: 830px;
+	top: 50px;
+	
+}
+.Loc_title{
+	position: relative;
+	width: 180px;
+	height: 26px;
+	font-family: 'Signika';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 30px;
+}
+.Loc_box{
+	position: relative;
+	width: 300px;
+	height: 100px;
+	top: 12%;
+}
+.Loc_add{
+	position: relative;
+	width: 300px;
+	height: 30px;
+	background: linear-gradient(360deg, rgba(172, 136, 135, 0.53) 4.13%, rgba(212, 175, 185, 0.53) 103.78%);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Loc_add, .Loc_add1{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 28px;
+	color: #FFFFFF;
+	display: inline-flex;
+}
+.Loc_add1, .mark{
+	display: flex;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/*credits*/
+.tooth_box{
+	position: absolute;
+	width: 530px;
+	height: 30px;
+	left: 57.1%;
+	top: 78%;
+}
+.tooth_box, .crack{
+	position: relative;
+}
+.tooth_box, .healthy{
+	position: relative;
+}
+.tooth_box, .brace{
+	position: relative;
+}
+.tooth_box, .tool{
+	position: relative;
+}
+.tooth_box, .install{
+	position: relative;
+}
+.tooth_box, .open{
+	position: relative;
+}
+
+
+.credits{
+	position: absolute;
+	width: 377px;
+	height: 24px;
+	left: 825px;
+	top: 92%;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.5);
+	mix-blend-mode: overlay;
+
+}
